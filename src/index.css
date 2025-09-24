@@ -1,0 +1,21 @@
+ @import "tailwindcss";
+ @plugin "daisyui";
+
+ @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+
+ .clip-hexagon {
+  clip-path: polygon(
+    50% 3.846%,
+    92% 28.846%,
+    92% 71.154%,
+    50% 96.154%,
+    8% 71.154%,
+    8% 28.846%
+  );
+}
+
+
+*{
+     font-family: "Ovo", serif;
+}
