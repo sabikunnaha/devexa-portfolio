@@ -6,7 +6,7 @@ const Header = () => {
             <div className="container flex justify-between h-16 mx-auto">
                 <nav className="hidden md:flex items-center gap-6 text-sm  p-4 rounded-full">
                     {[
-                        ["Home", "#home"],
+                        ["Home", "/"],
                         ["About", "#about"],
                         ["service", "#service"],
                     ].map(([label, href]) => (
@@ -19,7 +19,7 @@ const Header = () => {
                     <img className='w-20' src={logo} alt="" />
                 </a>
                 <div className="flex items-center md:space-x-4">
-                     <a href="#contact" className="hover:text-blue-300 font-semibold">Our team</a>
+                     <a href="#team" className="hover:text-blue-300 font-semibold">Our team</a>
                     <a href="#contact" className="px-4 py-2  bg-gradient-to-br from-blue-100 to-blue-400 font-semibold rounded-md shadow-sm hover:bg-indigo-700">Get in touch</a>
                 </div>
                 <button title="Open menu" type="button" className="p-4 lg:hidden">

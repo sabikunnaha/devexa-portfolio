@@ -9,6 +9,7 @@ const Hero = () => {
 
     const titles = [
         'Secure Payment & IT Solutions',
+        'Innovate, Integrate, Inspire —',
         'Secure. Scalable. Smart IT Solutions',
         'Custom software for business automation',
         'E-Commerce Solutions',
@@ -43,7 +44,7 @@ const Hero = () => {
         return () => clearTimeout(timeout);
     }, [displayText, currentIndex, isDeleting, titles]);
     return (
-        <div className="relative min-h-screen overflow-hidden">
+        <div id="" className="relative min-h-screen overflow-hidden">
             {/* Background Image */}
             <div
                 className="absolute inset-0"
@@ -62,7 +63,7 @@ const Hero = () => {
                             <h2 className="font-semibold text-gray-900 text-lg">Devexa IT Ltd.</h2>
 
                             <div className="h-20 flex items-center justify-center mb-8">
-                                <h2 className="text-2xl md:text-4xl dark:text-white text-gray-800 font-semibold">
+                                <h2 className="text-2xl md:text-4xl text-gray-800 font-semibold">
                                     {displayText}
                                     <span className="animate-pulse text-gray-800">|</span>
                                 </h2>
@@ -99,22 +100,21 @@ const Hero = () => {
                 </div>
 
                 {/* Bottom Info */}
-                <div className="mt-12 grid grid-cols-3 gap-8 text-white max-w-3xl text-center">
+                <div className="mt-12 flex flex-col md:flex-row justify-center gap-12 items-center text-gray-900 text-center ">
                     <div>
                         <p className="font-bold">CONTACT</p>
                         <p className="text-sm">+88 123 543 0100</p>
                         <p className="text-sm">youremail@email.com</p>
                     </div>
                     <div>
-                        <p className="font-bold">YOUR COMPANY NAME</p>
+                        <p className="font-bold">Devexa IT LTD</p>
                         <p className="text-sm">www.companywebsite.com</p>
                     </div>
                     <div>
                         <p className="font-bold">LOCATION</p>
                         <p className="text-sm">
-                            Pleasant View Street No 70 <br />
-                            West Nolia City, LN Design
-                        </p>
+                            Address placeholder<br />
+                            Dhaka, Bangladesh                        </p>
                     </div>
                 </div>
             </div>
