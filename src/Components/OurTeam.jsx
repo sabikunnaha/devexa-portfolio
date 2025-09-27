@@ -37,17 +37,15 @@ const OurTeam = () => {
     ];
 
     return (
-        <div className="bg-white min-h-screen px-6 py-12">
+        <div id="team" className="bg-gray-100 min-h-screen px-6 pt-24">
             {/* Title */}
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-gray-900 mb-2">Our Team</h2>
                 <div className="w-12 h-1 bg-gray-900 mx-auto mb-4"></div>
                 <p className="text-gray-600 text-sm max-w-xl mx-auto">
-                    Sample text. Click to select the text box. Click again or double click to start editing the text.
+                    Devexa STARTED AS A PROJECT TO MANAGE STAKING WITH FRIENDS AND FAMILY.
                 </p>
-                <p className="text-gray-500 text-sm mt-2">
-                    Images from <a href="#" className="text-blue-500 underline">Freepik</a>
-                </p>
+                 
             </div>
 
 

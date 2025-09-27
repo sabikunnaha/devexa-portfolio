@@ -2,7 +2,7 @@
 import logo from '../assets/logo-1.png'
 const Header = () => {
     return (
-        <header className="p-4 bg-gray-100 text-gray-800 fixed z-10 w-full ">
+        <header className="p-4 bg-gray-100 text-gray-800 fixed z-50 w-full ">
             <div className="container flex justify-between h-16 mx-auto">
                 <nav className="hidden md:flex items-center gap-6 text-sm  p-4 rounded-full">
                     {[
