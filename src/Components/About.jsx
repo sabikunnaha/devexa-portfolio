@@ -3,7 +3,7 @@
 
 const About = () => {
     return (
-        <section id="about" className=" mx-auto dark:bg-gray-100 px-6 pt-20 pb-12 min-h-screen">
+        <section id="about" className=" mx-auto dark:bg-gray-100 px-8 pt-20 pb-12 min-h-screen">
             {/* About Company Section */}
             <h2 className="text-3xl font-bold text-gray-900 max-w-7xl mx-auto my-6">ABOUT DEVEXA </h2>
 

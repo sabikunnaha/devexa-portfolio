@@ -82,7 +82,7 @@ const Hero = () => {
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center px-4 min-h-screen">
                 {/* Hexagon */}
-                <div className="relative w-80 h-96 flex items-center justify-center">
+                <div className="hidden sm:relative sm:w-80 sm:h-96 sm:flex sm:items-center sm:justify-center">
                     {/* Hexagon shape */}
                     <div className="absolute inset-0 clip-hexagon bg-white shadow-xl"></div>
 
